@@ -55,7 +55,7 @@ const Welcome = () => {
         <div className="ml-10 mt-10">
           <div className="p-2 pl-10 pr-10 pt-10 pb-20 sm:w-96 w-fullflex flex-col justify-start items-center blue-glassmorphism ">
 
-            <Input className="text-black text-base" placeholder="Address To" name="addressTo" type="text" handleChange={handleChange} />
+            <Input placeholder="Address To" name="addressTo" type="text" handleChange={handleChange} />
             <Input placeholder="Amount (ETH)" name="amount" type="number" handleChange={handleChange} />
             <Input placeholder="Patient ID" name="keyword" type="text" handleChange={handleChange} />
             <Input placeholder="Symptom 1" name="message" type="text" handleChange={handleChange} />
